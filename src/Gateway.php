@@ -14,7 +14,7 @@ use Omnipay\Common\AbstractGateway;
 use Omnipay\YandexMoney\Message\p2p\CompletePurchaseRequest;
 use Omnipay\YandexMoney\Message\p2p\PurchaseRequest;
 
-class P2pGateway extends AbstractGateway
+class Gateway extends AbstractGateway
 {
     public function getName()
     {
